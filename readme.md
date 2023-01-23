@@ -7,4 +7,4 @@
 | box              | boxの「慶應義塾に所属していますか？」をスキップ                                          |
 
 ## 使い方
-各ブラウザのカスタムスクリプト実行拡張機能（[Chrome](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=ja), [Firefox](https://addons.mozilla.org/ja/firefox/addon/tampermonkey/), [Safari](https://apps.apple.com/jp/app/userscripts/id1463298887))に読み込ませる
+各ブラウザのカスタムスクリプト実行拡張機能（[Chrome](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=ja), [Firefox](https://addons.mozilla.org/ja/firefox/addon/tampermonkey/), [Safari](https://apps.apple.com/jp/app/userscripts/id1463298887)) に読み込ませる
