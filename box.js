@@ -4,7 +4,7 @@
 // @version      0.1
 // @description  Box AutoLogin
 // @author       You
-// @match        https://keio.account.box.com/login/*
+// @match        https://keio.account.box.com/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=box.com
 // @grant        none
 // ==/UserScript==
