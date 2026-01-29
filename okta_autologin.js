@@ -1,7 +1,7 @@
 // ==UserScript==
-// @name        keio2024.okta.com auto login
+// @name        keio.okta.com auto login
 // @namespace   Violentmonkey Scripts
-// @match       https://keio2024.okta.com/*
+// @match       https://keio.okta.com/*
 // @grant       none
 // @version     1.0
 // @author      -
@@ -15,7 +15,7 @@
         let loginButton = document.getElementsByClassName('button-primary')[0];
 
         if (emailInput && loginButton) {
-            emailInput.value = 'YOUR_EMAIL@keio.jp';
+            emailInput.value = 'mail';
 
             emailInput.dispatchEvent(new Event('input', { bubbles: true }));
             emailInput.dispatchEvent(new Event('change', { bubbles: true }));
@@ -26,11 +26,11 @@
         }
     }, 500);
   setTimeout(function() {
-        let passwordInput = document.getElementById('input53');
+        let passwordInput = document.getElementById('input55');
         let loginButtonPassword = document.getElementsByClassName('button-primary')[0];
 
         if (passwordInput && loginButtonPassword) {
-            passwordInput.value = 'YOUR_PASSWORD'; 
+            passwordInput.value = 'password';
 
             passwordInput.dispatchEvent(new Event('input', { bubbles: true }));
             passwordInput.dispatchEvent(new Event('change', { bubbles: true }));
@@ -39,5 +39,5 @@
 
             loginButtonPassword.click();
         }
-    }, 1500);
+    }, 2000);
 })();
